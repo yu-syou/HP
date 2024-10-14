@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <title>高専祭HP</title>
+</head>
+
+<body>
+
+
+
+    <header class="mobile">
+        <div class="wrapper">
+            <button class="btn-menu">+</button>
+            <ul class="main-nav"> <!-- 各エリアにつけたID名を読み込むことで、それぞれに移動できる -->
+                <li onclick="showPage('home')"><a>ホーム</a></li>
+                <li onclick="showPage('shops')"><a>模擬店</a></li>
+                <li onclick="showPage('pamphlet')"><a>パンフレット</a></li>
+                <li onclick="showPage('others')"><a>その他</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <header_desktop class="include desktop">
+        <ul> <!-- 各エリアにつけたID名を読み込むことで、それぞれに移動できる -->
+            <li onclick="showPage('home')"><a>ホーム</a></li>
+            <li onclick="showPage('shops')"><a>模擬店</a></li>
+            <li onclick="showPage('pamphlet')"><a>パンフレット</a></li>
+            <li onclick="showPage('others')"><a>その他</a></li>
+        </ul>
+    </header_desktop>
+
+
+
+    <section id="home" class="page">
+        <div class="text">
+            <h1>第50回徳山高専 高専祭</h1>
+            <p class="date">2024 10.28 - 10.29</p><br>
+        </div>
+    </section>
+
+
+
+
+    <section id="shops" class="page active">
+        <h1>クラス模擬店</h1>
+        <h3>全体図</h3>
+        <img src="image/map_second_first.png" class="mobile"><br><br>
+        <img src="image/map_first.jpg" class="desktop">
+        <img src="image/map_first_first.png" class="mobile">
+        <p>教室管理棟一階では、主に体験型の講座を中心に企画しています！ICT教室では、校舎をめぐっての謎解きが体験できます。談話室の総合文化部による作品展示、巨大クレーンゲームなどがあります！クレーンゲームは毎年大人気ですので、今年もいかがですか？</p><br>
+        <img src="image/map_first_second.png" class="mobile">
+        <p>教室管理棟2階では、一年生教室でお化け屋敷を行います。毎年恒例のこの企画ですが、果たして今年はどれほど怖いのか...。残暑も吹き飛ぶような、ちょっぴり肌寒い体験はいかがですか？</p><br>
+
+
+        <img src="image/map_second.jpg" class="desktop">
+        <img src="image/map_second_second.png" class="mobile">
+        <p>体育館付近では、各学科・各部活動の出店を出しています！うどんやカレーなどガッツリ食べたいものから、焼き鳥屋ポテトなど、気軽に食べられるものまで揃えています。校区内は基本的に食べ歩きOKなので、美味しそうなものがあれば気軽に立ち寄ってください！
+        </p>
+
+        
+        <class_contents_profit class="profit">
+
+
+
+            </class_contents>
+
+
+
+    </section>
+
+    <section id="pamphlet" class="page">
+        <a href="image/pamphlet.pdf">パンフレットの閲覧はこちらから！</a>
+    </section>
+
+    <section id="others" class="page">
+        <h2>お知らせ</h2>
+        <table class="othres-table">
+
+            <tr>
+                <td class="others-content">バスについて：<br>
+                    (高専発着の時刻表は<a class="grid-gallery" href="image/basu_time.png" data-aos="fade-up">
+                        <img class="grid-item">こちら</a>)<br>
+                    当日は防長バスの便を追加いたします。運行スケジュールは以下の通りです。<br><br>
+                    <ul>
+                        <li>下松駅(7:45)→櫛ヶ浜駅(8:05)→徳山高専<br></li>
+                        <li>徳山駅前(8:10)→徳山高専(8:27)<br>
+                        <li>徳山駅前(8:30)→(高専経由8:50)→久米温泉口(8:57)<br>
+                        <li>徳山駅前(8:35)→徳山高専(8:52)<br>
+                        <li>徳山駅前(12:15)→(高専経由12:35)→久米温泉口(12:42)<br>
+                        <li>徳山高専(16:25)→(桜木経由)徳山駅(16:42)<br>
+                    </ul>
+                    <br>バスの乗車人数に限りがあるため、乗り切れない可能性がございます。その場合は、他の交通機関の利用をお願いします。<br>
+                    また、今年はシャトルバスの運行は行いません。あらかじめご了承ください。
+                </td>
+        </table>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
