@@ -166,7 +166,6 @@ object{
 }
 #others h2 {
     color: var(--white);
-    text-decoration: underline;
 }
 #others 
 .others-table {
