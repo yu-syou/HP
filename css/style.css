@@ -139,7 +139,9 @@ header .wrapper{
 #shops p{
    margin: 0 3rem;
 }
-
+#shops img{
+    max-width: 100%;
+}
 
 
 /*==pamphlet====================*/
