@@ -118,12 +118,10 @@ header .wrapper{
 #home h1{
     font-size: 2.1rem;
     margin-bottom: 1.5rem;
-    padding: 2.5rem 0 0 0;
 }
 .date {
     text-align: center;
     border-bottom: 3px solid var(--grey);
-    padding: 30vh 0 0 0;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
