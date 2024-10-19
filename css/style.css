@@ -186,6 +186,22 @@ object{
     padding-top: 1rem;
 }
 
+/*======live=======*/
+#live{
+    width: 100%;
+    background-image:  repeating-linear-gradient(0deg, #4db1ec, #14a9ff 2px, #b1ddf7 2px, #bed5e2);
+    padding: 7rem 0;
+    z-index: 5;
+}
+.live-content {
+    border-radius: 1rem;
+}
+.live-content p {
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+
 
 
 
@@ -263,6 +279,7 @@ object{
         font-size: 2.5rem;
         border: none;
     }
+
     section .main-text{
         font-size: 1.5rem;
     }
@@ -278,6 +295,11 @@ object{
         display: table-cell;
     }
     .others-content {
+        max-width: 40vw;
+        padding: 1rem 10rem 1rem 35vw;
+    }
+
+    .live-content{
         max-width: 40vw;
         padding: 1rem 10rem 1rem 35vw;
     }
